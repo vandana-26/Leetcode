@@ -28,7 +28,6 @@ var minSetSize = function(arr) {
         return a+b;
     });
     
-    console.log("aaaaa",sum);
 
     for(let i = 0;i < temparr.length; i++){
         if(sum-temparr[i] <= len){
@@ -39,9 +38,6 @@ var minSetSize = function(arr) {
             count++;
             sum = sum-temparr[i];
         }
-        // else{
-        //     continue;
-        // }
             
     }
     
