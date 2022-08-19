@@ -3,10 +3,6 @@
  * @return {string}
  */
 
-String.prototype.replaceAt = function(index,replaceStr){
-    return this.substring(0,index) + replaceStr + this.substring(index+replaceStr.length);
-}
-
 var breakPalindrome = function(palindrome) {
     let newStr = "";
     let count = 0;
