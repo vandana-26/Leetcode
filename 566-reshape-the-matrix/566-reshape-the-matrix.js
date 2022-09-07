@@ -11,6 +11,7 @@ var matrixReshape = function(mat, r, c) {
     }
     let output = [],res;
     res = new Array(r).fill(0).map(() =>new Array(c).fill(0))
+   // console.log(res);
     let R = mat.length;
     let C = mat[0].length;
     for(let i = 0; i < R; i++){
